@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=webapp-kindle
+Comment=webapp for kindle online reader
+Type=Application
+Icon=webapp-kindle.png
+Exec=webapp-container --name=webapp-kindle --store-session-cookies --maximized --webappUrlPatterns=https?://*.amazon.ca/* http://read.amazon.ca %u --user-agent-string='Linux / Chrome 34: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/34.0.1847.137 Safari/537.36'
+Terminal=false
+X-Ubuntu-Touch=true
+

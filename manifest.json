@@ -1,0 +1,15 @@
+{
+    "architecture": "armhf",
+    "description": "Kindle Reader",
+    "framework": "ubuntu-sdk-15.04.5",
+    "hooks": {
+        "webapp-kindle": {
+            "apparmor": "webapp-kindle.apparmor",
+            "desktop": "webapp-kindle.desktop"
+        }
+    },
+    "maintainer": "Terence Sambo <arubislander.zonnet.nl>",
+    "name": "nl.arubislander.webapp-kindle",
+    "title": "webapp-kindle",
+    "version": "1.0"
+}
